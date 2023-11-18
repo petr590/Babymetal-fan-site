@@ -1,0 +1,80 @@
+@import 'mini-dark.min.css';
+@import 'slider.css';
+
+:root {
+	--back-color: black;
+	--notice-fore-color: hsl(0, 0%, 65%);
+}
+
+header {
+	height: fit-content;
+}
+
+header nav {
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: flex;
+}
+
+header nav a,
+header nav a:visited {
+	color: var(--a-link-color);
+}
+
+main.container {
+	padding: 0;
+	letter-spacing: 0.75rem;
+	max-width: 75rem;
+	--original-a-link-color: var(--a-link-color);
+}
+
+main.container > * {
+	--a-link-color: var(--fore-color);
+	--a-visited-color: var(--fore-color);
+	--nav-link-color: var(--fore-color);
+}
+
+main.container .text {
+	--a-link-color: var(--original-a-link-color);
+	--a-visited-color: var(--original-a-link-color);
+}
+
+main.container nav {
+	margin: 0;
+	border: none;
+}
+
+.main-h1 {
+	font-size: clamp(1rem, 5vw, 3rem);
+}
+
+main.container p,
+.text {
+	letter-spacing: normal;
+}
+
+.notice {
+	color: var(--notice-fore-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+.indent {
+	margin: 2rem 1rem;
+}
+
+.centered {
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	text-align: center;
+	margin-top: 1.5rem;
+}
