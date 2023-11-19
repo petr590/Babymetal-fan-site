@@ -4,6 +4,27 @@
 :root {
 	--back-color: black;
 	--notice-fore-color: hsl(0, 0%, 65%);
+
+	--nav-back-color: hsl(0, 0%, 10%);
+	--header-back-color: hsl(0, 0%, 10%);
+	--footer-back-color: hsl(0, 0%, 10%);
+	--header-border-color: hsl(0, 0%, 50%);
+	--footer-border-color: hsl(0, 0%, 50%);
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: stretch;
+}
+
+main {
+	flex-grow: 1;
 }
 
 header {
@@ -20,6 +41,11 @@ header nav {
 header nav a,
 header nav a:visited {
 	color: var(--a-link-color);
+}
+
+footer {
+	text-align: center;
+	margin-top: 1.5rem;
 }
 
 main.container {
@@ -45,11 +71,19 @@ main.container nav {
 	border: none;
 }
 
-.main-h1 {
-	font-size: clamp(1rem, 5vw, 3rem);
+main.container nav * {
+	padding: 0;
 }
 
-main.container p,
+.font-size-by-viewport {
+	font-size: clamp(var(--min-font-size, 1.25rem), var(--adaptive-font-size, 2vw), 3rem);
+}
+
+.main-h1 {
+	--min-font-size: 2rem;
+	--adaptive-font-size: 5vw;
+}
+
 .text {
 	letter-spacing: normal;
 }
@@ -62,6 +96,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+p {
+	text-align: justify;
+}
+
 .indent {
 	margin: 2rem 1rem;
 }
@@ -72,9 +110,4 @@ h1, h2, h3, h4, h5, h6 {
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-}
-
-footer {
-	text-align: center;
-	margin-top: 1.5rem;
 }

@@ -1,0 +1,458 @@
+[
+	{
+		"file": "babymetal-death.html",
+		"song": "BABYMETAL DEATH",
+		"links": [
+			{
+				"name": "BABYMETAL DEATH Legend 1997",
+				"href": "https://youtu.be/jRc9dbgiBPI"
+			}
+		]
+	},
+	{
+		"file": "babymetal-death-shin-version.html",
+		"song": "BABYMETAL DEATH (Shin version)",
+		"links": []
+	},
+	{
+		"file": "megitsune.html",
+		"song": "Megitsune",
+		"text": "Это - одна из самых основных и самых популярных песен Babymetal. Самое необычное в ней - смешение японского стиля с металом. Алсо, по словам Su-Metal, в этой песне есть всё, и, несмотря на то, что она была написана ещё до первого альбома Babymetal, в ней всё ещё много нюансов.",
+		"links": [
+			{
+				"name": "Megitsune",
+				"href": "https://youtu.be/cK3NMZAUKGw"
+			}
+		]
+	},
+	{
+		"file": "gimme-chocolate.html",
+		"song": "Gimme Chocolate!!",
+		"links": [
+			{
+				"name": "Gimme Chocolate!!",
+				"href": "https://youtu.be/WIKqgE4BwAY"
+			}
+		]
+	},
+	{
+		"file": "iine.html",
+		"song": "Iine!",
+		"text": [
+			"Начну с пояснения. Название этой песни - не «LINE», а «IINE». Многие называют её «LINE» просто из-за похожего написания и путаницы.",
+			"<!-- TODO -->"
+		],
+		"links": [
+			{
+				"name": "Iine!",
+				"href": "https://youtu.be/qVdBBOpSoN4"
+			},
+			{
+				"name": "Iine! (2023)",
+				"href": "https://youtu.be/5jt-pLD6qJA"
+			}
+		]
+	},
+	{
+		"file": "akatsuki.html",
+		"song": "Akatsuki",
+		"links": [
+			{
+				"name": "Akatsuki at Budokan Black Night",
+				"href": "https://youtu.be/g2372C5PJLM"
+			},
+			{
+				"name": "Akatsuki at Budokan 2021",
+				"href": "https://youtu.be/WMTBQkddojc"
+			}
+		]
+	},
+	{
+		"file": "doki-doki-morning.html",
+		"song": "Doki Doki \u2606 Morning",
+		"links": [
+			{
+				"name": "Doki Doki \u2606 Morning Official",
+				"href": "https://youtu.be/cirhQ8iLdbw"
+			},
+			{
+				"name": "Doki Doki \u2606 Morning at Budokan 2021",
+				"href": "https://youtu.be/10V4-xxYZS4"
+			},
+			{
+				"name": "Doki Doki \u2606 Morning ft. Metalverse",
+				"href": "https://youtu.be/j4lGVefoPIo"
+			}
+		]
+	},
+	{
+		"file": "onedari-daisakusen.html",
+		"song": "Onedari Daisakusen",
+		"links": [
+			{
+				"name": "Onedari Daisakusen",
+				"href": "https://youtu.be/c1ynjq7WvdQ"
+			},
+			{
+				"name": "Onedari Daisakusen at Budokan",
+				"href": "https://youtu.be/IShPSxAeyfE"
+			}
+		]
+	},
+	{
+		"file": "yon-no-uta.html",
+		"song": "Yon no Uta (Song 4)",
+		"text": "Эта песня была написана Юи и Моа, когда они ехали в автобусе. Поначалу она была просто прикольной песней, но потом её доработали и добавили в альбом.",
+		"links": [
+			{
+				"name": "Yon no Uta at Budokan Black Night",
+				"href": "https://youtu.be/7_D6Q895Ts8"
+			},
+			{
+				"name": "Yon no Uta - Moa solo",
+				"href": "https://youtu.be/m8W6i7u2aRk"
+			}
+		]
+	},
+	{
+		"file": "uki-uki-midnight.html",
+		"song": "Uki Uki \u2605 Midnight",
+		"text": "Не исполнялась со времён Юи",
+		"links": [
+			{
+				"name": "Uki Uki \u2605 Midnight",
+				"href": "https://youtu.be/G92AastNopc"
+			}
+		]
+	},
+	{
+		"file": "catch-me-if-you-can.html",
+		"song": "Catch Me If You Can",
+		"text": "Не исполнялась со времён Юи",
+		"links": [
+			{
+				"name": "Catch Me If You Can",
+				"href": "https://youtu.be/H_yATzyi-3g"
+			}
+		]
+	},
+	{
+		"file": "rondo-of-nightmare.html",
+		"song": "Rondo of Nightmare",
+		"text": "Не исполнялась со времён Юи",
+		"links": [
+			{
+				"name": "Rondo of Nightmare",
+				"href": "https://youtu.be/tmMocP99QkQ"
+			}
+		]
+	},
+	{
+		"file": "headbanger.html",
+		"song": "Head Bangerrr!!",
+		"links": [
+			{
+				"name": "Head Bangerrr!! (Official)",
+				"href": "https://youtu.be/2IzR_ClTE8Y"
+			},
+			{
+				"name": "Head Bangerrr - Moa solo",
+				"href": "https://youtu.be/UGnrXbu2ymI"
+			}
+		]
+	},
+	{
+		"file": "ijime-dame-zettai.html",
+		"song": "Ijime, Dame, Zettai",
+		"links": [
+			{
+				"name": "Ijime, Dame, Zettai (Official)",
+				"href": "https://youtu.be/nDqaTXqCN-Q"
+			},
+			{
+				"name": "Ijime, Dame, Zettai at Budokan 2021",
+				"href": "https://youtu.be/ZFlUFbA2LGc"
+			}
+		]
+	},
+	{
+		"file": "road-of-resistance.html",
+		"song": "Road of Resistance",
+		"links": [
+			{
+				"name": "Road of Resistance (Official)",
+				"href": "https://youtu.be/zTEYUFgLveY"
+			},
+			{
+				"name": "Road of Resistance (Budokan 2021)",
+				"href": "https://youtu.be/Eo4Vxa-dVUE"
+			},
+			{
+				"name": "Road of Resistance (Avenger era)",
+				"href": "https://youtu.be/VVTHav8mUK8"
+			}
+		]
+	},
+	{
+		"file": "larate.html",
+		"song": "Karate",
+		"links": [
+			
+		]
+	},
+	{
+		"file": "awadama-fever.html",
+		"song": "Awadama Fever",
+		"links": []
+	},
+	{
+		"file": "yava.html",
+		"song": "Yava!",
+		"links": []
+	},
+	{
+		"file": "amore.html",
+		"song": "Amore",
+		"links": []
+	},
+	{
+		"file": "meta-taro.html",
+		"song": "Meta Taro",
+		"links": []
+	},
+	{
+		"file": "syncopation.html",
+		"song": "Syncopation",
+		"links": []
+	},
+	{
+		"file": "gj.html",
+		"song": "GJ!",
+		"links": []
+	},
+	{
+		"file": "gj-reward-edit.html",
+		"song": "GJ! (Reward edit)",
+		"links": []
+	},
+	{
+		"file": "sis-anger.html",
+		"song": "Sis. Anger",
+		"links": []
+	},
+	{
+		"file": "no-rain-no-rainbow.html",
+		"song": "No Rain, No Rainbow",
+		"links": []
+	},
+	{
+		"file": "tales-of-the-destinies.html",
+		"song": "Tales of the Destinies",
+		"links": []
+	},
+	{
+		"file": "the-one.html",
+		"song": "The One",
+		"text": [
+			"Грандиозная композиция, почти в два раза длиннее любой другой. Одна из самых популярных среди фанатов и не только. Как и любой хит, нельзя слушать его слишком часто, иначе она со временем затирается и не ощущается. The One всегда является завершающей песней на концертах. Она выражает одну из главных идей Babymetal - единение. На этой песне на концерте фанаты действительно ощущают себя одним целым с группой. Оценить всю её грандиозность можно, пожалуй, только на реальном концерте.",
+			"Говоря о The One, нельзя не упомянуть разные версии этой песни:",
+			"<ul>\n\t\t\t\t<li>The One (English ver.) - английский текст</li>\n\t\t\t\t<li>The One (Japanese ver.) - каноничный, японский текст</li>\n\t\t\t\t<li>The One (Unfinished ver.) - незавершённая версия, самая долгая и красивая. Исполнялась 1 или 2 раза на концертах и один раз на The First Take</li>\n\t\t\t</ul>"
+		],
+		"links": [
+			{
+				"name": "The One (Official)",
+				"href": "https://youtu.be/TZRvO0S-TLU"
+			},
+			{
+				"name": "The One (Budokan 2021)",
+				"href": "https://youtu.be/TUWcPfpZZ74"
+			},
+			{
+				"name": "The One (English ver.)",
+				"href": "https://youtu.be/QEsCzSCQ_Oo"
+			},
+			{
+				"name": "The One (Unfinished ver.) / The First Take",
+				"href": "https://youtu.be/gpCufgRwg9I"
+			},
+			{
+				"name": "The One (Unfinished ver.) / Legend S - Baptism XX",
+				"href": "https://ok.ru/video/639720491618?fromTime=3757"
+			}
+		]
+	},
+	{
+		"file": "from-dusk-till-dawn.html",
+		"song": "From Dusk Till Dawn",
+		"text": "Одна из самых красивых песен Babymetal. Она выделяется среди других песен группы (даже таких, как Akatsuki и Megitsune) очень необычным стилем. Исполнялась вживую около двух раз, последний - на 10 Babymetal Budokan. Эта запись - единственная (на данный момент) full proshot, да ещё и 4K.",
+		"links": [
+			{
+				"name": "From Dusk Till Dawn (2017)",
+				"href": "https://youtu.be/y4wo7PHfjp0"
+			},
+			{
+				"name": "From Dusk Till Dawn (Budokan 2021)",
+				"href": "https://youtu.be/DyDm5gpoDf0"
+			}
+		]
+	},
+	{
+		"file": "future-metal.html",
+		"song": "Future Metal",
+		"text": "Короткая песня, использующаяся в качестве интро на концертах альбома Metal Galaxy",
+		"links": [
+			{
+				"name": "Future Metal",
+				"href": "https://ok.ru/video/1361140058722"
+			}
+		]
+	},
+	{
+		"file": "da-da-dance.html",
+		"song": "Da Da Dance",
+		"links": []
+	},
+	{
+		"file": "elevator-girl.html",
+		"song": "Elevator Girl",
+		"text": "Интересная песня про девушку в лифте. «Вам вверх или вниз?». Имеется две версии: английская и японская",
+		"links": [
+			{
+				"name": "Elevator Girl (Japanese ver.)",
+				"href": "https://youtu.be/2YNnCrvGeKM"
+			},
+			{
+				"name": "Elevator Girl (English ver.)",
+				"href": "https://youtu.be/Q48bwxyqVpQ"
+			}
+		]
+	},
+	{
+		"file": "shanti-shanti-shanti.html",
+		"song": "Shanti Shanti Shanti",
+		"links": []
+	},
+	{
+		"file": "oh-majinai.html",
+		"song": "Oh! Majinai",
+		"links": []
+	},
+	{
+		"file": "brand-new-day.html",
+		"song": "Brand New Day",
+		"links": []
+	},
+	{
+		"file": "bbab.html",
+		"song": "↑↓←→ BBAB",
+		"text": "Единственная песня, не считая специальных изданий, которая не была исполнена вживую ни разу. Странно, что про неё вообще забыли. Но песня прикольная :)",
+		"links": [
+			{
+				"name": "↑↓←→ BBAB",
+				"href": "https://youtu.be/a3xokC9D6yc"
+			}
+		]
+	},
+	{
+		"file": "night-night-burn.html",
+		"song": "Night Night Burn!",
+		"links": []
+	},
+	{
+		"file": "in-the-name-of.html",
+		"song": "In the Name Of",
+		"text": "In the Name Of - интро на концертах Doomsday (наравне с <a href=\"babymetal-death-shin-version.html\">BABYMETAL DEATH (Shin version)</a>), 10 Babymetal Budokan и других.",
+		"links": []
+	},
+	{
+		"file": "distortion.html",
+		"song": "Distortion",
+		"links": []
+	},
+	{
+		"file": "pa-pa-ya.html",
+		"song": "Pa Pa Ya!!",
+		"links": []
+	},
+	{
+		"file": "bxmxc.html",
+		"song": "BxMxC",
+		"text": "Эта песня - ещё одно подтверждение того, что вокальные возможности Su-Metal огромны. Она смогла исполнить рэп на профессиональном уровне, причём не только в студии, но и вживую, на концертах. Чёткий МеталСайфер!",
+		"links": []
+	},
+	{
+		"file": "kagerou.html",
+		"song": "Kagerou",
+		"links": []
+	},
+	{
+		"file": "starlight.html",
+		"song": "Starlight",
+		"links": []
+	},
+	{
+		"file": "shine.html",
+		"song": "Shine",
+		"links": []
+	},
+	{
+		"file": "arkadia.html",
+		"song": "Arkadia",
+		"links": []
+	},
+	{
+		"file": "metal-kingdom.html",
+		"song": "Metal Kingdom",
+		"links": []
+	},
+	{
+		"file": "divine-attack-shingeki.html",
+		"song": "Divine Attack - Shingeki",
+		"links": [
+			{
+				"name": "Divine Attack - Shingeki",
+				"href": "https://youtu.be/INRPP78SvXs"
+			}
+		]
+	},
+	{
+		"file": "mirror-mirror.html",
+		"song": "Mirror Mirror",
+		"links": []
+	},
+	{
+		"file": "maya.html",
+		"song": "Maya",
+		"links": []
+	},
+	{
+		"file": "time-wave.html",
+		"song": "Time Wave",
+		"links": []
+	},
+	{
+		"file": "believing.html",
+		"song": "Believing",
+		"links": []
+	},
+	{
+		"file": "metalizm.html",
+		"song": "Metalizm",
+		"links": []
+	},
+	{
+		"file": "monochrome.html",
+		"song": "Monochrome",
+		"links": []
+	},
+	{
+		"file": "light-and-darkness.html",
+		"song": "Light and Darkness",
+		"links": []
+	},
+	{
+		"file": "the-legend.html",
+		"song": "The Legend",
+		"links": []
+	}
+]
