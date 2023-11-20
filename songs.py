@@ -1,9 +1,9 @@
 import json
 
-with open('/home/winch/0x590/web/BM-m/songs/template.html', 'r') as file:
+with open('/home/winch/0x590/web/Babymetal-fan-site/songs/template.html', 'r') as file:
 	template = file.read()
 
-with open('/home/winch/0x590/web/BM-m/songs.json', 'r') as file:
+with open('/home/winch/0x590/web/Babymetal-fan-site/songs.json', 'r') as file:
 	data = json.load(file)
 	
 	for entry in data:
@@ -31,5 +31,5 @@ with open('/home/winch/0x590/web/BM-m/songs.json', 'r') as file:
 		else:
 			result = result.replace('LINKS', '')
 		
-		with open('/home/winch/0x590/web/BM-m/songs/' + entry['file'], 'w') as html:
+		with open('/home/winch/0x590/web/Babymetal-fan-site/songs/' + entry['file'], 'w') as html:
 			html.write(result)

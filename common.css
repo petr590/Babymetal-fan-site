@@ -6,6 +6,7 @@
 	--notice-fore-color: hsl(0, 0%, 65%);
 
 	--nav-back-color: hsl(0, 0%, 10%);
+	--nav-hover-back-color: hsl(0, 0%, 20%);
 	--header-back-color: hsl(0, 0%, 10%);
 	--footer-back-color: hsl(0, 0%, 10%);
 	--header-border-color: hsl(0, 0%, 50%);
@@ -41,6 +42,27 @@ header nav {
 header nav a,
 header nav a:visited {
 	color: var(--a-link-color);
+}
+
+header nav .path {
+	display: flex;
+	gap: 0.5em;
+	margin-right: auto;
+}
+
+header nav .path > * {
+	padding: 0;
+}
+
+header nav .path a:hover {
+	text-decoration: underline;
+	background-color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+	header nav .path > :not(:first-child) {
+		display: none;
+	}
 }
 
 footer {

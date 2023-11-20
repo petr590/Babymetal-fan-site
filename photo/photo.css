@@ -1,0 +1,18 @@
+.photos {
+    --column-count: 2;
+    -webkit-column-count: var(--column-count);
+    -moz-column-count: var(--column-count);
+    column-count: var(--column-count);
+}
+
+.photo {
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .photos {
+        --column-count: 1;
+    }
+}
