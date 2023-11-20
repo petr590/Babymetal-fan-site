@@ -1,6 +1,7 @@
 import os
 
-PHOTO = '/home/winch/0x590/web/Babymetal-fan-site/photo/'
+SITE = '/home/winch/0x590/web/Babymetal-fan-site/'
+PHOTO = SITE + 'photo/'
 
 with open(PHOTO + 'template.html', 'r') as file: template = file.read()
 with open(PHOTO + 'index-template.html', 'r') as file: index_template = file.read()
@@ -20,7 +21,7 @@ def generate_file(dirname: str, member_name: str, member_full_name: str) -> None
     for subdir_name in os.listdir(dir):
         subdir = os.path.join(dir, subdir_name)
         if os.path.isdir(subdir):
-            links.append(f'<a href="/photo/{result_dir_name}/{subdir_name}.html">{subdir_name}</a>')
+            links.append(f'<a href="photo/{result_dir_name}/{subdir_name}.html">{subdir_name}</a>')
 
             images = []
         
@@ -28,12 +29,12 @@ def generate_file(dirname: str, member_name: str, member_full_name: str) -> None
                 image = os.path.join(subdir, image_file_name)
 
                 if os.path.isfile(image):
-                    target = create_dir(f'{PHOTO}{result_dir_name}/imgs/{subdir_name}', image_file_name)
+                    target = create_dir(f'{SITE}/imgs/photo/{result_dir_name}/{subdir_name}', image_file_name)
 
                     if not os.path.exists(target):
                         os.system(f'ln "{image}" "{target}"')
                     
-                    images.append(f'<img class="photo" src="imgs/{subdir_name}/{image_file_name}">')
+                    images.append(f'<img class="photo" src="imgs/photo/{result_dir_name}/{subdir_name}/{image_file_name}">')
                     
             with open(create_dir(PHOTO + result_dir_name, subdir_name + '.html'), 'w') as file:
                 content = template.replace('FULLNAME', member_full_name).replace('PATHNAME', result_dir_name).replace('NAME', member_name)
