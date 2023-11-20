@@ -133,3 +133,7 @@ p {
 	align-items: center;
 	justify-content: center;
 }
+
+.article-image {
+	max-height: 80vh;
+}
