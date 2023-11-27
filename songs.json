@@ -88,6 +88,7 @@
 	{
 		"file": "onedari-daisakusen.html",
 		"song": "Onedari Daisakusen",
+		"text": "Onedari Daisakusen - одна из песен <a href=\"articles/black-babymetal.html\">Black Babymetal</a>. Несмотря на то, что она исполняется вживую без Су, её голос явно слышно на фоне (скорее всего, запись)",
 		"links": [
 			{
 				"name": "Onedari Daisakusen",
@@ -102,11 +103,15 @@
 	{
 		"file": "yon-no-uta.html",
 		"song": "Yon no Uta (Song 4)",
-		"text": "Эта песня была написана Юи и Моа, когда они ехали в автобусе. Поначалу она была просто прикольной песней, но потом её доработали и добавили в альбом.",
+		"text": "Эта песня была написана Юи и Моа, когда они ехали в автобусе. Поначалу она была просто прикольной песней, но потом её доработали и добавили в альбом. До ухода Юи исполнялясь <a href=\"articles/black-babymetal.html\">Black Babymetal</a>.",
 		"links": [
 			{
 				"name": "Yon no Uta at Budokan Black Night",
 				"href": "https://youtu.be/7_D6Q895Ts8"
+			},
+			{
+				"name": "Yon no Uta - Moa solo",
+				"href": "https://youtu.be/m8W6i7u2aRk"
 			},
 			{
 				"name": "Yon no Uta - Moa solo",
@@ -194,7 +199,7 @@
 		]
 	},
 	{
-		"file": "larate.html",
+		"file": "karate.html",
 		"song": "Karate",
 		"links": [
 			
@@ -208,7 +213,17 @@
 	{
 		"file": "yava.html",
 		"song": "Yava!",
-		"links": []
+		"text": "Одна из самых любимых песен автора сайта :). ",
+		"links": [
+			{
+				"name": "Yava",
+				"href": "https://youtu.be/sULI8shswvA"
+			},
+			{
+				"name": "Yava - Live compilation",
+				"href": "https://youtu.be/a2DHiGTwzH4"
+			}
+		]
 	},
 	{
 		"file": "amore.html",
@@ -228,12 +243,21 @@
 	{
 		"file": "gj.html",
 		"song": "GJ!",
-		"links": []
-	},
-	{
-		"file": "gj-reward-edit.html",
-		"song": "GJ! (Reward edit)",
-		"links": []
+		"text": "GJ - одна из песен <a href=\"articles/black-babymetal.html\">Black Babymetal</a>. Название расшифровывается как «Good Job!». Также есть отдельная версия «GJ! (Reward edit)», которая была записана в студии и никогда не исполнялась вживую.",
+		"links": [
+			{
+				"name": "GJ! - Live compilation",
+				"href": "https://youtu.be/dNdYg4eeEAs"
+			},
+			{
+				"name": "GJ! (Budokan 2021)",
+				"href": "https://youtu.be/rGm5_qWNgUc"
+			},
+			{
+				"name": "GJ! (Reward edit) - Compilation",
+				"href": "https://youtu.be/JXX5geBmE3E"
+			}
+		]
 	},
 	{
 		"file": "sis-anger.html",
@@ -299,7 +323,7 @@
 	{
 		"file": "future-metal.html",
 		"song": "Future Metal",
-		"text": "Короткая песня, использующаяся в качестве интро на концертах альбома Metal Galaxy",
+		"text": "Короткая песня, использующаяся в качестве интро на концертах альбома Metal Galaxy. «Welcome to the world of Babymetal»",
 		"links": [
 			{
 				"name": "Future Metal",

@@ -1,0 +1,41 @@
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	flex-flow: column;
+	justify-content: stretch;
+}
+
+main {
+	flex-grow: 1;
+}
+
+main.container {
+	padding: 0;
+	letter-spacing: 0.75rem;
+	max-width: 75rem;
+	--original-a-link-color: var(--a-link-color);
+}
+
+main.container > * {
+	--a-link-color: var(--fore-color);
+	--a-visited-color: var(--fore-color);
+	--nav-link-color: var(--fore-color);
+}
+
+main.container .text {
+	--a-link-color: var(--original-a-link-color);
+	--a-visited-color: var(--original-a-link-color);
+}
+
+main.container nav {
+	margin: 0;
+	border: none;
+}
+
+main.container nav * {
+	padding: 0;
+}

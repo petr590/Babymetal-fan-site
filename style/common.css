@@ -1,0 +1,62 @@
+@import 'mini-dark.min.css';
+@import 'header.css';
+@import 'main.css';
+@import 'footer.css';
+@import 'slider.css';
+
+:root {
+	--back-color: black;
+	--notice-fore-color: hsl(0, 0%, 65%);
+
+	--nav-back-color: hsl(0, 0%, 10%);
+	--nav-hover-back-color: hsl(0, 0%, 20%);
+	--header-back-color: hsl(0, 0%, 10%);
+	--footer-back-color: hsl(0, 0%, 10%);
+	--header-border-color: hsl(0, 0%, 50%);
+	--footer-border-color: hsl(0, 0%, 50%);
+}
+
+.font-size-by-viewport {
+	font-size: clamp(var(--min-font-size, 1.25rem), var(--adaptive-font-size, 2vw), 3rem);
+}
+
+.main-h1 {
+	--min-font-size: 2rem;
+	--adaptive-font-size: 5vw;
+}
+
+.text {
+	letter-spacing: normal;
+}
+
+.notice {
+	color: var(--notice-fore-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+p {
+	text-align: justify;
+}
+
+.indent {
+	margin: 2rem 1rem;
+}
+
+.centered {
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+article {
+	margin: var(--universal-margin);
+}
+
+.article-image {
+	max-height: 80vh;
+}

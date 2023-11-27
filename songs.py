@@ -1,5 +1,8 @@
 import json
 
+def paragraph(text: str) -> str:
+	return text if text.startswith('<') else f'<p>{text}<p>'
+
 with open('/home/winch/0x590/web/Babymetal-fan-site/songs/template.html', 'r') as file:
 	template = file.read()
 
@@ -13,11 +16,11 @@ with open('/home/winch/0x590/web/Babymetal-fan-site/songs.json', 'r') as file:
 			text = entry['text']
 
 			if isinstance(text, str):
-				result = result.replace('TEXT', text)
+				result = result.replace('TEXT', paragraph(text))
 			elif isinstance(text, list):
 				htmlCode = ''
 				for txt in text:
-					htmlCode += txt if txt.startswith('<') else '<p>' + txt + '<p>'
+					htmlCode += paragraph(txt)
 				
 				result = result.replace('TEXT', htmlCode)
 		else:

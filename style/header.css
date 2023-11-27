@@ -1,0 +1,36 @@
+header {
+	height: fit-content;
+}
+
+header nav {
+	padding: 0;
+	margin: 0;
+	border: none;
+	display: flex;
+}
+
+header nav a,
+header nav a:visited {
+	color: var(--a-link-color);
+}
+
+header nav .path {
+	display: flex;
+	gap: 0.5em;
+	margin-right: auto;
+}
+
+header nav .path > * {
+	padding: 0;
+}
+
+header nav .path a:hover {
+	text-decoration: underline;
+	background-color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+	header nav .path > :not(:first-child) {
+		display: none;
+	}
+}
